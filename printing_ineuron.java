@@ -1,5 +1,6 @@
 public class printing_ineuron {
     public static void gap(){
+        //to print 2 extra lines
     System.out.println();
     System.out.println();
     
@@ -9,9 +10,11 @@ public class printing_ineuron {
         for (int j = 0; j < 8; j++) {
             if(j==0||j==7){
                 for(int i=0;i<5;i++){
+                    //printing the head and tail of I *******
             System.out.print("*");}
             System.out.println();}
         else{
+            //to print the middle part of I
         for (int i = 0; i < 5; i++) {
             if(i==2){
             System.out.print("*");}
